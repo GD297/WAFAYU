@@ -1,0 +1,12 @@
+D:\Study\CN7\WAFAYU.WebAPI\WAFAYU.DataService\bin\Release\netcoreapp3.1\WAFAYU.DataService.deps.json
+D:\Study\CN7\WAFAYU.WebAPI\WAFAYU.DataService\bin\Release\netcoreapp3.1\WAFAYU.DataService.runtimeconfig.json
+D:\Study\CN7\WAFAYU.WebAPI\WAFAYU.DataService\bin\Release\netcoreapp3.1\WAFAYU.DataService.runtimeconfig.dev.json
+D:\Study\CN7\WAFAYU.WebAPI\WAFAYU.DataService\bin\Release\netcoreapp3.1\WAFAYU.DataService.dll
+D:\Study\CN7\WAFAYU.WebAPI\WAFAYU.DataService\bin\Release\netcoreapp3.1\WAFAYU.DataService.pdb
+D:\Study\CN7\WAFAYU.WebAPI\WAFAYU.DataService\obj\Release\netcoreapp3.1\WAFAYU.DataService.csprojAssemblyReference.cache
+D:\Study\CN7\WAFAYU.WebAPI\WAFAYU.DataService\obj\Release\netcoreapp3.1\WAFAYU.DataService.AssemblyInfoInputs.cache
+D:\Study\CN7\WAFAYU.WebAPI\WAFAYU.DataService\obj\Release\netcoreapp3.1\WAFAYU.DataService.AssemblyInfo.cs
+D:\Study\CN7\WAFAYU.WebAPI\WAFAYU.DataService\obj\Release\netcoreapp3.1\WAFAYU.DataService.csproj.CoreCompileInputs.cache
+D:\Study\CN7\WAFAYU.WebAPI\WAFAYU.DataService\obj\Release\netcoreapp3.1\WAFAYU.DataService.dll
+D:\Study\CN7\WAFAYU.WebAPI\WAFAYU.DataService\obj\Release\netcoreapp3.1\WAFAYU.DataService.pdb
+D:\Study\CN7\WAFAYU.WebAPI\WAFAYU.DataService\obj\Release\netcoreapp3.1\WAFAYU.DataService.genruntimeconfig.cache

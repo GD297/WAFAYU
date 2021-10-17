@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WAFAYU.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:WAFAYU.WebAPI.Controllers.FeedbackController.Get(System.Int32,System.String[],System.Int32,System.Int32)">
+            <summary>
+            Get feedbacks by StorageId
+            </summary>
+            <param name="StorageId"></param>
+            <param name="fields"></param>
+            <param name="page"></param>
+            <param name="size"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WAFAYU.WebAPI.Controllers.FeedbackController.Add(WAFAYU.DataService.ViewModels.FeedbackCreateViewModel)">
+            <summary>
+            Create new feedback
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WAFAYU.WebAPI.Controllers.FeedbackController.Update(System.Int32,System.Int32,WAFAYU.DataService.ViewModels.FeedbackCreateViewModel)">
+            <summary>
+            Update feedback
+            </summary>
+            <param name="orderId"></param>
+            <param name="storageId"></param>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WAFAYU.WebAPI.Controllers.OrderController.Get(System.String[],System.Int32,System.Int32)">
+            <summary>
+            Get all orders
+            </summary>
+            <param name="fields"></param>
+            <param name="page"></param>
+            <param name="size"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WAFAYU.WebAPI.Controllers.OrderController.Get(System.Int32)">
+            <summary>
+            Get Order by Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WAFAYU.WebAPI.Controllers.OrderController.Payment(WAFAYU.DataService.ViewModels.OrderPaymentViewModel)">
+            <summary>
+            User payment
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WAFAYU.WebAPI.Controllers.OrderDetailController.Add(WAFAYU.DataService.ViewModels.OrderDetailListViewModel)">
+            <summary>
+            Create order detail
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WAFAYU.WebAPI.Controllers.OrderDetailController.Update(System.Int32,WAFAYU.DataService.ViewModels.OrderDetailListUpdateViewModel)">
+            <summary>
+            Update order detail
+            </summary>
+            <param name="id"></param>
+            <param name="entity"></param>
+            <returns>ReportAttributeCategoryUpdateModel</returns>
+        </member>
+        <member name="M:WAFAYU.WebAPI.Controllers.OrderDetailController.Delete(System.Int32,WAFAYU.DataService.ViewModels.OrderDetailDeleteViewModel)">
+            <summary>
+            Delete order detail
+            </summary>
+            <param name="id"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WAFAYU.WebAPI.Controllers.ShelfController.Get(WAFAYU.DataService.ViewModels.ShelfViewModel,System.String[],System.Int32,System.Int32)">
+            <summary>
+            Get all shelves
+            </summary>
+            <param name="model"></param>
+            <param name="fields"></param>
+            <param name="page"></param>
+            <param name="size"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WAFAYU.WebAPI.Controllers.ShelfController.Get(System.Int32)">
+            <summary>
+            Get Shelf by Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WAFAYU.WebAPI.Controllers.ShelfController.Add(WAFAYU.DataService.ViewModels.ShelfCreateViewModel)">
+            <summary>
+            Create shelf
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WAFAYU.WebAPI.Controllers.ShelfController.Delete(System.Int32)">
+            <summary>
+            Delete shelf
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WAFAYU.WebAPI.Controllers.StoragesController.Get(WAFAYU.DataService.ViewModels.StorageViewModel,System.String[],System.Int32,System.Int32)">
+            <summary>
+            Get all storages
+            </summary>
+            <param name="model"></param>
+            <param name="fields"></param>
+            <param name="page"></param>
+            <param name="size"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WAFAYU.WebAPI.Controllers.StoragesController.GetDetail(System.Int32)">
+            <summary>
+            Get storage by Id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WAFAYU.WebAPI.Controllers.StoragesController.Add(WAFAYU.DataService.ViewModels.StorageCreateViewModel)">
+            <summary>
+            Create new storage
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WAFAYU.WebAPI.Controllers.StoragesController.Update(System.Int32,WAFAYU.DataService.ViewModels.StorageUpdateViewModel)">
+            <summary>
+            Update storage
+            </summary>
+            <param name="id"></param>
+            <param name="entity"></param>
+            <returns>ReportAttributeCategoryUpdateModel</returns>
+        </member>
+        <member name="M:WAFAYU.WebAPI.Controllers.StoragesController.Delete(System.Int32)">
+            <summary>
+            Delete storage
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WAFAYU.WebAPI.Controllers.UserController.Login(WAFAYU.DataService.ViewModels.LoginViewModel)">
+            <summary>
+            Login by email and password
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WAFAYU.WebAPI.Controllers.UserController.SignUp(WAFAYU.DataService.ViewModels.SignUpViewModel)">
+            <summary>
+            Sign up by email and password
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WAFAYU.WebAPI.Controllers.UserController.ChangePassword(WAFAYU.DataService.ViewModels.ChangePasswordViewModel)">
+            <summary>
+            Change password
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WAFAYU.WebAPI.Controllers.UserController.UpdateProfile(WAFAYU.DataService.ViewModels.UpdateProfileViewModel)">
+            <summary>
+            Update user profile
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
